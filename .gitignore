@@ -1,0 +1,42 @@
+
+# diretories (by name)
+
+bin/
+obj/
+
+TestResults/
+
+# diretories (by pattern)
+
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# files (by name)
+
+.DS_Store
+
+Local.testsettings
+TraceAndTestImpact.testsettings
+
+# files (by pattern)
+
+*~
+*.opensdf
+*.org
+*.proj
+*.scc
+*.sdf
+*.suo
+*.swo
+*.swp
+*.tmp
+
+*.nuget.props
+*.nuget.targets
+
+*.csproj*.user
+*.vcproj.user
+*.vcxproj.user
+TestResult*.xml
+UpgradeLog*.XML
+
