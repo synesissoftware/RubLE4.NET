@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{69F6E54B-F1AB-4E0E-A4A2-10F095662A6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{113A11FE-1744-484D-ABF0-25807BCD9ACA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3FE3A871-1E04-4585-98CF-FAF1CEB8050F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "component", "component", "{D590616B-D8E9-4E98-8FBC-D156435EE2CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scratch", "scratch", "{AE483561-A0C2-430B-80AA-C3B8A514FF7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{83D901C5-410F-4612-8A98-6A2C4C59940C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BAAE5592-E10C-4C4C-AB39-5FD4E1FE78B0}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		RubLE4.vsmdi = RubLE4.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.String.Chomp", "examples\Example.String.Chomp\Example.String.Chomp.csproj", "{6AABA8F3-BAC2-489D-B64D-628C4C77F9C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubLE4.Core", "src\RubLE4.Core\RubLE4.Core.csproj", "{1B639E38-400A-417D-8EC1-A352D17B7270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Unit.RubLE4.String", "test\unit\Test.Unit.RubLE4.String\Test.Unit.RubLE4.String.csproj", "{7ECBED6D-84AB-42F7-AB38-47B2D3F1FE99}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RubLE4.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AABA8F3-BAC2-489D-B64D-628C4C77F9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AABA8F3-BAC2-489D-B64D-628C4C77F9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AABA8F3-BAC2-489D-B64D-628C4C77F9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AABA8F3-BAC2-489D-B64D-628C4C77F9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B639E38-400A-417D-8EC1-A352D17B7270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B639E38-400A-417D-8EC1-A352D17B7270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B639E38-400A-417D-8EC1-A352D17B7270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B639E38-400A-417D-8EC1-A352D17B7270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECBED6D-84AB-42F7-AB38-47B2D3F1FE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECBED6D-84AB-42F7-AB38-47B2D3F1FE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECBED6D-84AB-42F7-AB38-47B2D3F1FE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECBED6D-84AB-42F7-AB38-47B2D3F1FE99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AABA8F3-BAC2-489D-B64D-628C4C77F9C2} = {69F6E54B-F1AB-4E0E-A4A2-10F095662A6C}
+		{1B639E38-400A-417D-8EC1-A352D17B7270} = {113A11FE-1744-484D-ABF0-25807BCD9ACA}
+		{D590616B-D8E9-4E98-8FBC-D156435EE2CF} = {3FE3A871-1E04-4585-98CF-FAF1CEB8050F}
+		{AE483561-A0C2-430B-80AA-C3B8A514FF7F} = {3FE3A871-1E04-4585-98CF-FAF1CEB8050F}
+		{83D901C5-410F-4612-8A98-6A2C4C59940C} = {3FE3A871-1E04-4585-98CF-FAF1CEB8050F}
+		{7ECBED6D-84AB-42F7-AB38-47B2D3F1FE99} = {83D901C5-410F-4612-8A98-6A2C4C59940C}
+	EndGlobalSection
+EndGlobal
