@@ -10,7 +10,6 @@ namespace Example.String.Chomp
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
