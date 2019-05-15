@@ -131,9 +131,9 @@ namespace RubLE4.Integer
 
         /// <summary>
         ///  Returns the power of two represented by
-        ///  <paramref name="i"/>; -1 otherwise
+        ///  <paramref name="n"/>; -1 otherwise
         /// </summary>
-        /// <param name="i">
+        /// <param name="n">
         ///  Must be a whole power of 2, i.e. between 1 and
         ///  <see cref="System.Int32.MaxValue"/>
         /// </param>

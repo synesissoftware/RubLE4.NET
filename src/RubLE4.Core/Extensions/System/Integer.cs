@@ -3,6 +3,10 @@ namespace RubLE4.Extensions.System.Integer
 {
     using global::System;
 
+    /// <summary>
+    ///  Extensions class that introduces as extensions methods
+    ///  from <see cref="RubLE4.Integer.Util"/>
+    /// </summary>
     public static class X_96541134_3693_48f3_9490_59BD5C4B3A46
     {
         /// <summary>
