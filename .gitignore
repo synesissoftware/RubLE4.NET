@@ -1,35 +1,47 @@
 
-# diretories (by name)
+# directories (by name)
+
+build/
+buildsrc/
+keys/
+scripts/
 
 bin/
 obj/
 
 TestResults/
 
-# diretories (by pattern)
+# directories (by pattern)
 
-**/[Pp]ackages/*
-!**/[Pp]ackages/build/
+/packages/
 
 # files (by name)
 
-.DS_Store
+!.gitignore
+
+build.cmd
 
 Local.testsettings
 TraceAndTestImpact.testsettings
 
+project.lock.json
+project.assets.json
+
 # files (by pattern)
 
 *~
+*.*~
+*.nupkg
 *.opensdf
 *.org
+*.pkg
 *.proj
 *.scc
 *.sdf
 *.suo
-*.swo
 *.swp
 *.tmp
+*.zip
 
 *.nuget.props
 *.nuget.targets
